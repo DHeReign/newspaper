@@ -11,41 +11,41 @@ body {
 .main {
     font-family: 'StratosSkyeng', sans-serif;
     background-color: #D6D3CA;
-    width: 1400px;
-    padding: 400px 53px;
-    margin: 0;
+    width: 1200px;
+    padding: 40px 53px;
+    margin: auto;
     box-shadow: 1px 1px 5px 1px grey;
 }
 
 .header {
     margin-bottom: 42px;
-    border-top: 4px black;
+    border-top: 4px solid black;
     border-bottom: 4px solid black;
-    text-align: right;
 }
 
 .header-date {
     text-align: right;
-    font-size: 86px;
+    font-size: 36px;
 }
 
 .header-title {
-    /* ... */
+    text-align: center;
+    font-size: 96px;
     font-style: italic;
     text-transform: uppercase;
 }
 
 .content {
-    padding: ;
+    padding: 30px 51px;
     border: 4px solid black;
     margin-bottom: 37px;
 }
 
 .content-title {
-    /* ... */
+    font-size: 64px;
     font-style: italic;
-    /* ... */
-    /* ... */
+    text-align: center;
+    margin-bottom: 55px;
 }
 
 .content-table {
@@ -62,7 +62,7 @@ body {
 
 .table-data-text,
 .table-data-text-last {
-    /* ... */
+    font-size: 24px;
 }
 
 .table-data-text {
@@ -76,12 +76,14 @@ img {
 }
 
 .advert-title {
-    /* ... */
+    font-size: 36px;
     font-style: italic;
-    /* ... */
+    font-weight: normal;
     /* border: ; */
     border-left: 0;
     border-right: 0;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
 }
 
 .adverts {
